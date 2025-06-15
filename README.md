@@ -2,7 +2,7 @@
 
 Code to reproduce results in the paper:
 
-*Mahrokh Najaf, Greg Ongie. "Sampling Theory for Super-Resolution with Implicit Neural Representations" Pre-print forthcoming, 2025.*
+*Mahrokh Najaf, Greg Ongie. "Sampling Theory for Super-Resolution with Implicit Neural Representations" 2025.* (arXiv pre-print: https://www.arxiv.org/abs/2506.09949 )
 
 **Abstract:** Implicit neural representations (INRs) have emerged as a powerful tool for solving inverse problems in computer vision and computational imaging. INRs represent images as continuous domain functions realized by a neural network taking spatial coordinates as inputs. However, unlike traditional pixel representations, little is known about the sample complexity of estimating images using INRs in the context of linear inverse problems. Towards this end, we study the sampling requirements for recovery of a continuous domain image from its low-pass Fourier samples by fitting a single hidden-layer INR with ReLU activation and a Fourier features layer using a generalized form of weight decay regularization. Our key insight is to relate minimizers of this non-convex parameter space optimization problem to minimizers of a convex penalty defined over an infinite-dimensional space of measures. We identify a sufficient number of Fourier samples for which an image realized by an INR is exactly recoverable by solving the INR training problem.  To validate our theory, we empirically assess the probability of achieving exact recovery of images realized by low-width single hidden-layer INRs, and illustrate the performance of INRs on super-resolution recovery of continuous domain phantom images.
 
